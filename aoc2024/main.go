@@ -1,12 +1,14 @@
 package main
 
 import (
-	"aoc2024/day_one"
-	"aoc2024/day_two"
+	_ "aoc2024/day_one"
+	_ "aoc2024/day_two"
+	"aoc2024/day_three"
 )
 
 func main() {
-	day_one.Day1()
-	day_two.Day2()
+	// day_one.Solution()
+	// day_two.Solution()
+	day_three.Solution()
 }
 

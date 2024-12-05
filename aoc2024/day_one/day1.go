@@ -9,7 +9,7 @@ import (
 	"strconv"
 )
 
-func Day1() {
+func Solution() {
 	file, err := os.Open("./inputs/day1.txt")
 	if err != nil {
 		log.Fatal(err)

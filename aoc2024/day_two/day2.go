@@ -15,7 +15,7 @@ const (
 	DESC      = 2
 )
 
-func Day2() {
+func Solution() {
 	file, err := os.Open("./inputs/02.in")
 	if err != nil {
 		log.Fatal(err)
