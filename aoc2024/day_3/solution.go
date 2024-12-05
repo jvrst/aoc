@@ -1,4 +1,4 @@
-package day_three
+package day_3
 
 import (
 	"fmt"
@@ -7,12 +7,6 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-)
-
-const (
-	UNDEFINED = 0
-	ASC       = 1
-	DESC      = 2
 )
 
 func Solution() {
